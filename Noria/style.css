@@ -1,0 +1,151 @@
+@font-face
+{
+    font-family: 'humanely';
+    src: url('Humanely.ttf');
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, serif;
+    font-size: 15px;
+    color: white;
+    background-image: url(Fond1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 1320px;
+    
+}
+
+/*           HEADER           */
+
+header h1
+{
+    font-family: 'humanely';
+    font-size: 45px;
+    float: left;
+    color: black;
+    margin-top: 32px;
+    margin-left: 25px;
+}
+
+nav ul
+{
+    float: right;
+    list-style: none;
+    margin-top: 52px;
+    margin-right: 10px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+
+header
+{
+    height: 120px;
+    background-color: white;
+}
+
+/*           SECTION           */
+
+#a-propos, #code-secret
+{
+    background-color: rgba(0,0,0,0.5);
+    margin: 30px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.texte
+{
+    width: 50%;
+    margin-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+#gif1
+{
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#retake
+{
+    float: right;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2
+{
+    padding-left: 30px;
+}
+
+h3, #texte-secret
+{
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+
+input[type=text]
+{
+    margin-top: 25px;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+input
+{
+    background-color: white;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*           FOOTER           */
+
+footer
+{
+    background-color: rgb(30,30,30);
+    height: 80px;
+
+}
+
+#f2
+{
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p
+{
+    text-align: center;
+    padding-top: 35px;
+}
